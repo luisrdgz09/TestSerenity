@@ -12,8 +12,8 @@ import starter.ui.HomePage;
 
 
 public class AlertsStepDefinitions {
-    @When("{actor} open the differents {string}:")
-    public void he_open_the_differents(Actor actor, String alert) {
+    @When("{actor} open the differents alerts {string}:")
+    public void he_open_the_differents_alerts(Actor actor, String alert) {
         actor.attemptsTo(
                 OpenOptionAlert.To(alert)
         );

@@ -23,9 +23,8 @@ public class WebTablesStepDefinitions {
 
     }
 
-    @Then("he should add and remove correctly")
-    public void he_should_add_and_remove_correctly() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Then("{actor} should add and remove correctly")
+    public void he_should_add_and_remove_correctly(Actor actor) {
+      actor.should(see.that);
     }
 }

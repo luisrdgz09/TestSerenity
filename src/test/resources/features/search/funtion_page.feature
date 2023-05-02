@@ -18,7 +18,7 @@ Feature: Search by keyword
   @test3
   Scenario Outline: Select date in data piker
     Given Sergey is researching things on the internet
-    When he open the differents <alerts>:
+    When he open the differents alerts <alerts>:
     Then he should see the alert correctly
     Examples:
       | alerts                 |
