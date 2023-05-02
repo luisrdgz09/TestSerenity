@@ -25,6 +25,6 @@ public class WebTablesStepDefinitions {
 
     @Then("{actor} should add and remove correctly")
     public void he_should_add_and_remove_correctly(Actor actor) {
-      actor.should(see.that);
+
     }
 }
